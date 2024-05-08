@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="./resources/index.css">
+</head>
+<body>
+<header>
+    <h1 class="topheader">Cheatsheet for coding</h1>
+    <p class="lastmod">Last modification <span style="color:darkgreen">08.05.2024</span></p>
+</header>
+<nav class="navbar">
+    <ul>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#attributes">Table Attributes</a></li>
+        <li><a href="#linkstates">Link states</a></li>
+    </ul>
+</nav>
+    <section class="tablesection">
+        <h2 id="tables">HTML tables</h2>
+        <p>The table below illustrates how HTML is used to create and alter tables within a website. In order to be prepared for future assignements, this table can help in finding appropiate values.</p>
+        <div style="overflow-x:auto;">
+        <table class="table">
+            <th class="thclass">
+                <tr>
+                    <td class="tableheading">Value</td>
+                    <td class="tableheading">Name</td>
+                    <td class="tableheading">Description</td>
+                </tr>
+            </th>
+            <tbody>
+                <tr>
+                    <td class="tabledata"><span class="code">&lt;table&gt;</span></td>
+                    <td class="tabledata">Table</td>
+                    <td class="tabledata">Is used to generate a table in HTML</td>
+                </tr>
+                <tr>
+                    <td class="tabledata"><span class="code">&lt;thead&gt;</span></td>
+                    <td class="tabledata">Table Head</td>
+                    <td class="tabledata">The set of rows defining the column headers in a table.</td>
+                </tr>
+                <tr>
+                    <td class="tabledata"><span class="code">&lt;tbody&gt;</span></td>
+                    <td class="tabledata">Table Body</td>
+                    <td class="tabledata">The set of rows containing actual table data.</td>
+                </tr>
+                <tr>
+                    <td class="tabledata"><span class="code">&lt;tr&gt;</span></td>
+                    <td class="tabledata">Table Row</td>
+                    <td class="tabledata">The table row container.</td>
+                </tr>
+                <tr>
+                    <td class="tabledata"><span class="code">&lt;tbody&gt;</span></td>
+                    <td class="tabledata">Table Data</td>
+                    <td class="tabledata">The table row container.</td>
+                </tr>
+                <tr>
+                    <td class="tabledata"><span class="code">&lt;tfoot&gt;</span></td>
+                    <td class="tabledata">Table Foot</td>
+                    <td class="tabledata">The set of rows defining the footer in a table.</td>
+                </tr>
+            </tbody>
+            <tfoot class="tablefooter">
+                <tr>
+                    <td colspan="3">Looking for additional styling? Click <a href="https://www.w3schools.com/html/html_tables.asp">here </a>for more information.</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    </section>
+    <section class="tablesection">
+        <h2 id="attributes">Table Attributes</h2>
+        <p>The table below illustrates how attributes are used to alter tables within a website. In order to be prepared for future assignements, this table can help in finding appropiate attributes.</p>
+        <div style="overflow-x:auto;">
+        <table class="table">
+            <th class="thclass">
+                <tr>
+                    <td class="tableheading">Value</td>
+                    <td class="tableheading">Name</td>
+                    <td class="tableheading">Description</td>
+                </tr>
+            </th>
+            <tbody>
+                <tr>
+                    <td class="tabledata"><span class="code">colspan</span></td>
+                    <td class="tabledata">Column Span</td>
+                    <td class="tabledata">Defines how many columns a td element should span.</td>
+                </tr>
+                <tr>
+                    <td class="tabledata"><span class="code">rowspan</span></td>
+                    <td class="tabledata">Row Span</td>
+                    <td class="tabledata">Defines how many rows a td element should span.</td>
+                </tr>
+            </tbody>
+            <tfoot class="tablefooter">
+                <tr>
+                    <td colspan="3">Looking for additional styling? Click <a href="https://www.w3schools.com/html/html_tables.asp" title="Read more information about table attributes" target="_blank">here </a>for more information.</th>
+                </tr>
+            </tfoot>
+        </table>
+        </div>
+    </section>
+    <section class="textsection">
+        <h2 id="linkstates">Link States</h2>
+        <p>Links have four main states: normal (not clicked), hover, active (clicked), and visited. These four states have associated CSS pseudo-classes: :link, :hover, :active, and :visited. These four states can be used to give a full range of visual feedback to users about the status of their link interaction.</p>
+        <p>The ordering of link state pseudo-class rules is important to reveal the proper information. When a user hovers and then clicks a link, those styles should always override the static styling surrounding a user’s history with the link (unvisited :link and :visited). The proper order of these rules is:</p>
+        <ul class="textlist">
+            <li>:link</li>
+            <li>:visited</li>
+            <li>:hover</li>
+            <li>:active</li>
+        </ul>
+    </section>
+</body>
+</html>
